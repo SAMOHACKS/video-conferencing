@@ -3,6 +3,6 @@ const ReactDOM = require('react-dom');
 import App from './components/App'
 
 ReactDOM.render(
-    <App />,
+    <div>SMH MY LIFEEE<App /></div>,
     document.getElementById('app')
 );
