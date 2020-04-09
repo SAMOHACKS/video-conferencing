@@ -1,4 +1,6 @@
 import React from 'react';
+import IntroPage from './IntroPage';
+
 let P2P = require('socket.io-p2p');
 let io = require('socket.io-client');
 
