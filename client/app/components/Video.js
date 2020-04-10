@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Video = props => (
-    <video autoplay muted playsinline srcObject={props.stream}></video>
+    <video autoPlay muted playsInline ></video>
 )
 
 export default Video;
