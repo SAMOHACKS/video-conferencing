@@ -1,8 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-import App from './components/App'
+import App from './pages/App'
 
 ReactDOM.render(
-    <div>SMH MY LIFEEE<App /></div>,
+    <App />,
     document.getElementById('app')
 );

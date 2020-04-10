@@ -1,5 +1,7 @@
 import React from 'react';
 import IntroPage from './IntroPage';
+import LoginPage from './LoginPage';
+import CreateAccount from './CreateAccount';
 
 let P2P = require('socket.io-p2p');
 let io = require('socket.io-client');
@@ -16,7 +18,8 @@ class App extends React.Component {
         });
     }
     render() {
-        return <div><IntroPage/><h1>SMH</h1></div>
+        return <CreateAccount/>
     }
+    
 }
 export default App; 
